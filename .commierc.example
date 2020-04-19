@@ -1,0 +1,15 @@
+{
+  "start": {
+    "severity": "warn",
+    "matchers": "m"
+  },
+  "end": {
+    "severity": "warn",
+    "matchers": "term"
+  },
+  "contains": {
+    "severity": "error",
+    "matchers": "pt"
+  },
+  "capitalized": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "commie",
+  "version": "0.1.0",
+  "description": "Your Commit Comrade",
+  "bin": {
+    "commie": "./bin/bin.js"
+  },
+  "license": "GPLv3",
+  "homepage": "http://github.com/maeriens/commie",
+  "keywords": [
+    "commit checker",
+    "commit",
+    "commit lint",
+    "commit message",
+    "pre-commit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maeriens/commie.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "check": "commie"
+  },
+  "author": "Mariano Perdomo",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cosmiconfig": "^6.0.0"
+  }
+}
